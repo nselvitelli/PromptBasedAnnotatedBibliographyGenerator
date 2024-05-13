@@ -2,6 +2,8 @@
 
 As the volume of scholarly literature continues to grow, finding relevant research articles for specific research topics becomes increasingly difficult. In this paper, we propose a potential solution to this problem, with our novel Natural Language Processing solution. We propose the Prompt-Based Annotated Bibliography Generator, that given a research topic of any length and complexity, will return an annotated bibliography containing relevant research articles. For this purpose, we built a large vector database, which contains SciBERT word embeddings of 55,000 documents retrieved from the CORE research paper database. Using this database, we are able to quickly retrieve the most similar research paper to a given user prompt. Our results indicate that this algorithm could be drastically improved, but are encouraging for potential future work.
 
+Read the Full Report Here: [Report](./NLP%20Final%20Report.pdf)
+
 ## Codebase + Evironment Setup
 ```
 $ git clone https://github.com/eoinFlynn-NU/NLPProject.git
